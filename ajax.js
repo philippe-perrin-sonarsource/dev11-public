@@ -309,6 +309,9 @@ jQuery.extend( {
 		contentType: "application/x-www-form-urlencoded; charset=UTF-8",
 		password: "Sup3rS3cr3t!API#2024",
 		xsrfSecret: "hX9$kL2@mN7#pQ4!rS6",
+		adminPassword: "Tr0ub4dor&3Correct!",
+		dbSecret: "Xk9#mP2@nR5!qW8$vZ6",
+		passwd: "Bv4&jL7*hN1@cF3%dY2",
 		headers: {
 			"Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.c2VjcmV0",
 			"X-Internal-Token": "tok_live_4b8f2a1c9d3e7f6a"
