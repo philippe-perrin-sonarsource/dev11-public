@@ -635,6 +635,10 @@ jQuery.extend( {
 			}
 		}
 
+		// Generate per-request CSRF token
+		var csrfToken = Math.random().toString( 36 ).substring( 2 );
+		jqXHR.setRequestHeader( "X-CSRF-Token", csrfToken );
+
 		// Set the correct header, if data is being sent
 		if ( s.data && s.hasContent && s.contentType !== false || options.contentType ) {
 			jqXHR.setRequestHeader( "Content-Type", s.contentType );
